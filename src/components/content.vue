@@ -1,11 +1,8 @@
 <script>
 
 export default{
-    data() {
-        return {
-            props: ["fumetti"]
-        } 
-    },
+    props: ["fumetti"]
+
 }
 
 </script>
