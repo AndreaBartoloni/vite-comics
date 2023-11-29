@@ -1,21 +1,27 @@
 <script>
 import testata from './components/testata.vue'
 import content from './components/content.vue'
+import iconbar from './components/iconbar.vue'
+import endsite from './components/endsite.vue'
+
 
 export default{
   components: {
     testata,
-    content
+    content, 
+    iconbar,
+    endsite
   }
 }
 </script>
 
 <template>
-  <div>
-    
-  </div>
-  <testata/>
-  <content/>
+    <testata/>
+    <main>
+      <content/>
+      <iconbar/>
+    </main>
+    <endsite/>
 </template>
 
 <style scoped>

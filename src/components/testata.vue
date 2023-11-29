@@ -58,14 +58,13 @@ export default{
 
 <template>
   <header>
-    <div class="container-testata">
+    <div class="container-testata container-bg">
       <div class="container-img">
-      <img src="../assets/img/dc-logo.png">
-    </div>
-    <div class="container-navbar">
-      <span v-for="(nav, index) in navBar" :href="nav.url" :key="index">{{ nav.text }}</span>
-    </div>
-
+        <img src="../assets/img/dc-logo.png">
+      </div>
+      <div class="container-navbar">
+        <span v-for="(nav, index) in navBar" :href="nav.url" :key="index">{{ nav.text }}</span>
+      </div>
     </div>
     
   </header>
@@ -76,9 +75,7 @@ export default{
 .container-testata{
   display: flex;
   align-items: center;
-  text-align: center;
-  width: 85%;
-  margin: auto;
+
 }
 header{
 
@@ -93,7 +90,7 @@ span{
   font-weight: 600;
 }
 .container-img{
-  width: 25%;
+  width: 100%;
 } 
 .container-img > img{
   width: 25%;
