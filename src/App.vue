@@ -99,10 +99,10 @@ export default{
 </script>
 
 <template>
-    <testata :fumetti="listaFumetti" />
+    <testata />
     <hero/>
     <main>
-      <content/>
+      <content :fumetti="listaFumetti" />
       <iconbar/>
     </main>
     <endsite/>
