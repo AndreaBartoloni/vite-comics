@@ -20,13 +20,13 @@ export default{
     return {
       listaFumetti: [
         {
-          thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
+          thumb: "https://static.wikia.nocookie.net/marvel_dc/images/5/54/Batman_The_Joker_War_Zone_Vol_1_1.jpg",
           price: "$19.99",
           series: "Action Comics",
           type: "comic book",
         },
         {
-          thumb: "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/M/1/M1BLLA015ISBN_0.jpg",
+          thumb: "https://static.wikia.nocookie.net/marvel_dc/images/5/54/Batman_The_Joker_War_Zone_Vol_1_1.jpg",
           price: "$3.99",
           series: "American Vampire 1976",
           type: "comic book",
